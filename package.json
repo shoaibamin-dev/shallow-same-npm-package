@@ -1,0 +1,25 @@
+{
+  "name": "shallow-same",
+  "version": "1.0.0",
+  "description": "an npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaibamin-dev/shallow-same-npm-package.git"
+  },
+  "keywords": [
+    "shallow",
+    "compare",
+    "shallow",
+    "isequal"
+  ],
+  "author": "Shoaib Amin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoaibamin-dev/shallow-same-npm-package/issues"
+  },
+  "homepage": "https://github.com/shoaibamin-dev/shallow-same-npm-package#readme"
+}
