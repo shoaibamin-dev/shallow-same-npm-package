@@ -28,8 +28,6 @@ Stand alone JavaScript utility to compare numbers, strings, arrays, and objects.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Comparing data values is a part of almost every development process. For example, in the case of back-end development, we want to compare:
 - response status codes
 - authentication tokens
@@ -79,6 +77,47 @@ $ npm install --save shallow-same
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+```js
+const ss = require('shallow-same');
+ 
+// Dummy Data
+const number1 = 1;
+const number2 = -1;
+const number3 = 1;
+
+const string1 = "shoaib amin";
+const string2 = "john doe";
+const string3 = "shoaib amin";
+
+const array1 = [1, "hello", 'world', {}];
+const array2 = ['hello', {}, 1, "world"];
+const array3 = [1, "hello", 'world', {}];
+
+const object1 = { hello: 'world', shoaib: 'amin' };
+const object2 = { amin: 'shoaib', world: 'hello' };
+const object3 = { shoaib: 'amin', hello: 'world' };
+
+ss(number1, number2);
+// → false
+ss(number1, number3);
+// → true
+
+ss(string1, string2);
+// → false
+ss(string1, string3);
+// → true
+
+ss(array1, array2);
+// → false
+ss(array1, array3);
+// → true
+
+ss(object1, object2);
+// → false
+ss(object1, object3);
+// → true
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
