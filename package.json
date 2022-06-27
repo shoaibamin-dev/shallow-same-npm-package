@@ -1,7 +1,7 @@
 {
   "name": "shallow-same",
-  "version": "1.0.4",
-  "description": "an npm package",
+  "version": "1.0.6",
+  "description": "Stand alone JavaScript utility to compare numbers, strings, arrays, and objects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
