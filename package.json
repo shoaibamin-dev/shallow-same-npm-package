@@ -1,6 +1,6 @@
 {
   "name": "shallow-same",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an npm package",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,17 @@
   "keywords": [
     "shallow",
     "compare",
-    "shallow",
-    "isequal"
+    "same",
+    "isequal",
+    "equal",
+    "equate",
+    "comparison",
+    "triple equals",
+    "compare objects",
+    "same objects",
+    "isequal objects",
+    "equate objects",
+    "object comparison"
   ],
   "author": "Shoaib Amin",
   "license": "MIT",

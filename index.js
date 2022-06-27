@@ -1,4 +1,4 @@
-const sc = (v1, v2) => {
+const ss = (v1, v2) => {
     if (v1 === null && v2 === null) return true;
     if (v1 === null || v2 === null) return false;
 
@@ -20,4 +20,4 @@ const sortAttrs = (unordered) => {
         }, {});
 };
 
-module.exports = sc;
+module.exports = ss;

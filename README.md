@@ -1,12 +1,20 @@
 <div id="top"></div>
 
 
+<h1 align="center">Welcome || Bienvenido || Salut || Huānyíng || Khush Amdeed</h1>
+
+
+# shallow-same
+
+Stand alone JavaScript utility to compare numbers, strings, arrays, and objects.
+<br/><br/>
+
 <!-- TABLE OF CONTENTS -->
+## Table of Contents
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Click to view</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -14,7 +22,7 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
+<br/><br/>
 
 
 <!-- ABOUT THE PROJECT -->
@@ -22,31 +30,48 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Comparing data values is a part of almost every development process. For example, in the case of back-end development, we want to compare:
+- response status codes
+- authentication tokens
+- meta objects
+- user history
+- data validations
+etc
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+While in the case of front-end development, we want to compare:
+- previous and next state objects
+- classes for conditional styling
+- enums and constants
+- data validations
+etc
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Till now, we have been using the strict equality operator (===) to compare the values, but isn't it annoying if we get to see these operators once in every 2-3 lines of code? (assuming we are validating the form values submitted by the user, and doing the same kind of validation in server side as well before sending it to the database)?
 
-Use the `BLANK_README.md` to get started.
+The package 'shallow-same' is a great replacement for the strict equality operator (===) to increase developer's productivity and engagement to the problem solution.
+
+### Comparing Objects Is A Great Challenge
+
+One of the amazing features of this tool is that it compares the two objects "shallowly" which means it will compare every key-value pair between the two objects. Which means it is going to compare the two object irrespective of their members order.
+
+### Last But Not Least
+
+This library is very **light-weight** (till dated 6/27/2022) compared to all the comparison libraries out there. I will be making sure I keep on reducing the size of this library in the later releases.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
 <!-- INSTALLATION -->
-### Installation
+## Installation
 
+```sh
+$ yarn add shallow-same
+# npm v5+
+$ npm install shallow-same
+# before npm v5
+$ npm install --save shallow-same
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -54,10 +79,6 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -72,9 +93,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/AwesomeFeature`)
+3. Commit your Changes (`git commit -m 'Add some AwesomeFeature'`)
+4. Push to the Branch (`git push origin feature/AwesomeFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -93,7 +114,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [shoaib-sivany-a5a431126](https://www.linkedin.com/in/shoaib-sivany-a5a431126/) - shoaibsivany@hotmail.com
+My LinkedIn Profile - [Shoaib Amin](https://www.linkedin.com/in/shoaib-sivany-a5a431126/)
+
+My Email - <a href="mailto:shoaibsivany@hotmail.com">shoaibsivany@hotmail.com</a>
 
 Project Link: [https://github.com/shoaibamin-dev/shallow-same-npm-package](https://github.com/shoaibamin-dev/shallow-same-npm-package)
 
