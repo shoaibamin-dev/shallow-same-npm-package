@@ -1,6 +1,6 @@
 {
   "name": "shallow-same",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "an npm package",
   "main": "index.js",
   "scripts": {
