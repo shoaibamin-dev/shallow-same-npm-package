@@ -80,6 +80,7 @@ $ npm install --save shallow-same
 
 ```js
 const ss = require('shallow-same');
+// import ss from 'shallow-same';
  
 // Dummy Data
 const number1 = 1;
